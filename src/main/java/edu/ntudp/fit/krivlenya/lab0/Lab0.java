@@ -1,4 +1,4 @@
-package edu.ntudp.fit.krivlenya;
+package edu.ntudp.fit.krivlenya.lab0;
 
 public class Lab0 {
     public static void main(String[] args) {
