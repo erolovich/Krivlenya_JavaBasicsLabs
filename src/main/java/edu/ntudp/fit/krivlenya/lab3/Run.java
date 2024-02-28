@@ -5,16 +5,16 @@ import edu.ntudp.fit.krivlenya.lab3.model.*;
 
 abstract public class Run {
     public static void main(String[] args) {
-        UniversityCreator universityCreator = new UniversityCreator();
+        UniversityCreator createTypycalUniversity = new UniversityCreator();
 
 
-        University university = universityCreator.createUniversity("University",
+        University university = createTypycalUniversity.createUniversity("University",
                 new Human("Yosyfata", "Nikitchenko", "Yosyfivna", Human.Sex.FEMALE));
 
 
 
 
-        FacultyCreator facultyCreator = new FacultyCreator(universityCreator);
+        FacultyCreator facultyCreator = new FacultyCreator(createTypycalUniversity);
 
 
         Faculty faculty1 = facultyCreator.createFaculty("Faculty of Science",

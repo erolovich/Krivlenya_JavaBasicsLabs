@@ -18,16 +18,8 @@ public class Faculty implements Ruleable {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Human getHead() {
         return dean;
-    }
-
-    public void setHead(Human dean) {
-        this.dean = dean;
     }
 
     public void addDepartment(Department department) {
@@ -36,9 +28,5 @@ public class Faculty implements Ruleable {
 
     public List<Department> getDepartments() {
         return departments;
-    }
-
-    public void setDepartments(List<Department> departments) {
-        this.departments = departments;
     }
 }

@@ -18,16 +18,8 @@ public class Department implements Ruleable {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Human getHead() {
         return head;
-    }
-
-    public void setHead(Human head) {
-        this.head = head;
     }
 
     public void addGroup(Group group) {
@@ -36,9 +28,5 @@ public class Department implements Ruleable {
 
     public List<Group> getGroups() {
         return groups;
-    }
-
-    public void setGroups(List<Group> groups) {
-        this.groups = groups;
     }
 }
