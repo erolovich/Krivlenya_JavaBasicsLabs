@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Objects;
 
 public class Group implements Ruleable {
-    private String name;
-    private Human head;
-    private List<Student> students;
+    private final String name;
+    private final Human head;
+    private final List<Student> students;
 
     public Group(String name, Human head) {
         this.name = name;

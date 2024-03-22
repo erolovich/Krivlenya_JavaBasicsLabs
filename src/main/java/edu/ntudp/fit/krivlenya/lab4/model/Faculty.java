@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Objects;
 
 public class Faculty implements Ruleable {
-    private String name;
-    private Human dean;
-    private List<Department> departments;
+    private final String name;
+    private final Human dean;
+    private final List<Department> departments;
 
     public Faculty(String name, Human dean) {
         this.name = name;
@@ -39,7 +39,4 @@ public class Faculty implements Ruleable {
         departments.add(department);
     }
 
-    public List<Department> getDepartments() {
-        return departments;
-    }
 }

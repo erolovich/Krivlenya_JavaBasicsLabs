@@ -3,10 +3,10 @@ package edu.ntudp.fit.krivlenya.lab4.model;
 import java.util.Objects;
 
 public class Human {
-    private String firstName;
-    private String lastName;
-    private String patronymic;
-    private Sex sex;
+    private final String firstName;
+    private final String lastName;
+    private final String patronymic;
+    private final Sex sex;
 
     public enum Sex {
         MALE,

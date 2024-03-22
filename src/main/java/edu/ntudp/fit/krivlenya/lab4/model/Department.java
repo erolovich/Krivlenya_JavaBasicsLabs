@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Objects;
 
 public class Department implements Ruleable {
-    private String name;
-    private Human head;
-    private List<Group> groups;
+    private final String name;
+    private final Human head;
+    private final List<Group> groups;
 
     public Department(String name, Human head) {
         this.name = name;
@@ -37,9 +37,5 @@ public class Department implements Ruleable {
 
     public void addGroup(Group group) {
         groups.add(group);
-    }
-
-    public List<Group> getGroups() {
-        return groups;
     }
 }
