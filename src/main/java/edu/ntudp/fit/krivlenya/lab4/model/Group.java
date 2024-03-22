@@ -38,9 +38,5 @@ public class Group implements Ruleable {
     public void addStudent(Student student) {
         students.add(student);
     }
-
-    public List<Student> getStudents() {
-        return students;
-    }
 }
 
