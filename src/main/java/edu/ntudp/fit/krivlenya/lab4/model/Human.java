@@ -31,12 +31,4 @@ public class Human {
     public int hashCode() {
         return Objects.hash(firstName, lastName, patronymic, sex);
     }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-        }
 }
