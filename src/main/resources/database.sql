@@ -15,7 +15,7 @@ CREATE TABLE `students` (
 INSERT INTO Students (id, surname, name, patronymic, date_of_birth, students_record_book_number) VALUES
     (1, 'Ivanov', 'Oleksandr', 'Vasylovych', 1998-05-20, 123456),
     (2, 'Petrov', 'Mary', 'Ivanivna', 1999-11-15, 654321),
-    (3, 'Sydorenko', 'Petro'', 'Oleksandrovych, 1997-09-05, 987654),
+    (3, 'Sydorenko', 'Petro', 'Oleksandrovych', 1997-09-05, 987654),
     (4, 'Kovalenko', 'Anna', 'Ihorivna', 2000-03-10, 456789),
     (5, 'Mykhailenko', 'Sergiy', 'Viktorovych', 1998-07-12, 135790),
     (6, 'Novikova', 'Kateryna', 'Volodymyrivna', 1999-02-28, 355613),
